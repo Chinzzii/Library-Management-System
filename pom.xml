@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>1</groupId>
+  <artifactId>Lib</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>LibraryManagement</name>
+
+	<properties>
+        <maven.compiler.source>13</maven.compiler.source>
+        <maven.compiler.target>13</maven.compiler.target>
+    </properties>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-rs-security-xml -->
+    <dependencies>
+    <dependency>
+        <groupId>org.apache.cxf</groupId>
+        <artifactId>cxf-rt-rs-security-xml</artifactId>
+        <version>2.5.2</version>
+    </dependency>
+	
+		<!-- https://mvnrepository.com/artifact/commons-dbutils/commons-dbutils -->
+	<dependency>
+	    <groupId>commons-dbutils</groupId>
+	    <artifactId>commons-dbutils</artifactId>
+	    <version>1.5</version>
+	</dependency>
+	
+	<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>5.1.25</version>
+	</dependency>
+	
+    </dependencies>
+
+</project>
