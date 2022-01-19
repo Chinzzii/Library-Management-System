@@ -99,7 +99,7 @@ public class main {
 		try {
 	        Class.forName("com.mysql.cj.jdbc.Driver");
 	        System.out.println("Loaded Driver");
-	        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/library", "root", "chinmay");
+	        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/library", "root", " ");
 	        System.out.println("Connected to MySQL");
 	        return con;
 		}
